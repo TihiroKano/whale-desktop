@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!-- 页面所有资源都来自本地服务（'self' 即 http://127.0.0.1:3123）；
+       'unsafe-inline' 仅限样式——widget.js 运行时注入 <style> 并用内联
+       transform 摆放贴图/气泡。加上 CSP 消除 Electron 的安全警告。 -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; connect-src 'self'">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <!-- 鼠标穿透命中检测（内联脚本会被 CSP 拦截，故独立成文件） -->
+  <script src="/dsh-whale/hit-test.js"></script>
+  <script defer src="/dsh-whale/widget.js"></script>
+</body>
+</html>

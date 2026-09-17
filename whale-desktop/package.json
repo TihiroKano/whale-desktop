@@ -1,0 +1,17 @@
+{
+  "name": "whale-balance-desktop",
+  "version": "1.0.0",
+  "description": "DeepSeek 余额小鲸鱼桌面挂件（透明悬浮、常驻置顶）",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "build:settings": "esbuild src/settings/main.jsx --bundle --outfile=assets/dist/settings.js --jsx=automatic"
+  },
+  "devDependencies": {
+    "electron": "*",
+    "esbuild": "^0.28.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

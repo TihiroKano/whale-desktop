@@ -1,0 +1,22 @@
+# 依赖（可 npm install 再生）
+node_modules/
+
+# 构建产物（可 npm run setup 再生）
+packaging/out/
+
+# 交付物大二进制（磁盘留存 + 文档 md5 留档，不入版本库）
+whale-desktopV1.0.0-setup.exe
+
+# 开发截屏与 E2E 证据帧（大二进制，磁盘留存）
+whale-desktop/dev-shots/
+
+# 运行期状态与日志（程序自动重建，机器相关）
+whale-desktop/.dshw-*.json
+whale-desktop/renderer.log
+
+# 工具会话配置
+.zcode/
+
+# 系统杂项
+Thumbs.db
+desktop.ini

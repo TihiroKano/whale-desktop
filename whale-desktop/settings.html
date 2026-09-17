@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!-- 与 index.html 同源策略：所有资源来自本地服务（'self' = http://127.0.0.1:3123）。
+       渲染层是 React（源码 src/settings/，经 esbuild 打包到 assets/dist/）。 -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'">
+  <title>小鲸鱼设置</title>
+  <link rel="stylesheet" href="/dsh-whale/glass.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script src="/dsh-whale/settings.js"></script>
+</body>
+</html>
