@@ -120,9 +120,12 @@ whale-desktop/                     # 程序运行文件（本仓库根下的程�
 - **内测版刷新上限**：完全被设置窗盖住的桌面变化由 6 秒兜底覆盖（实测 4–6 秒）；这是保护性设计，不是无限延迟
 - **Windows 平台**：依赖 Windows 的 DPAPI 凭据加密与系统级窗口特效（目前仅在 Windows 11 实机验证）
 
-## 致谢
+## 贡献者
 
-- 本项目基于 **[MeteorNOX](https://github.com/MeteorNOX)** 的 DSH 网页插件 **[DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)** 开发（桌面桌宠版）——插件思路、视觉与交互均源自原项目，感谢原作者与原项目的所有贡献者。
+- **TihiroKano** — 桌面版重新开发、功能设计与维护
+- **MeteorNOX** — [DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) 原作者
+
+本项目为基于原项目理念与视觉表现重新开发的桌面版本，感谢原项目及其所有贡献者。
 
 ## 许可证
 
